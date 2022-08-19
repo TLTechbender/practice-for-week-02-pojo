@@ -11,6 +11,13 @@ restSum(0); // => 0
 
 function restSum(...otherNums) {
   // Your code here
+    let answer=0;
+
+    otherNums.forEach(function(ele){
+        answer+=ele;
+    });
+
+    return answer;
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/

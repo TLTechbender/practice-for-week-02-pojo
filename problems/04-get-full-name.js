@@ -12,6 +12,13 @@ getFullName(p2); // => 'Charlie Brown'
 
 function getFullName(person) {
   // Your code here
+    let final =[];
+
+    final.push(person.firstName,person.lastName);
+
+
+
+    return final.join(" ");
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
